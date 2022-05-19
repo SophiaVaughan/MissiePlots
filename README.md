@@ -1,6 +1,6 @@
 # MissiePlots
 
-This repository contains a varity of codes to reproduce plots I have made.  
+This repository contains a varity of codes to reproduce plots I have made. Please reference this repo if you use it in your work.  
 
 Tutorials and example plots for each of the plotting functions can be found in the tutorials folder and documentation can be found in the docs folder.  
 
