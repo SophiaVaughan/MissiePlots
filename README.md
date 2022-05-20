@@ -28,7 +28,7 @@ It then should be possible to import the code as normal:
 from MissiePlots.<a module> import <some function>
 ```
 
-Note that this will then allow you to import any other code in the directory you added so if you have other git repositories in there it will be possible to use those to. It is also possible to perminatly add the directory to the system path but this is left as an exercise for the reader (google it).  
+Note that this will then allow you to import any other code in the directory you added so if you have other git repositories in there it will be possible to use those to. It is also possible to permanently add the directory to the system path but this is left as an exercise for the reader (google it).  
 
 ## Dependecies
 
