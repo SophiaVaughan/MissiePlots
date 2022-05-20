@@ -11,7 +11,7 @@ If you have seen a nice plot in my work (papers, posters, talks etc) and the cod
 This code is presently not avalible on pip so you will have to clone the repository and add it to the system path to use it like an installed package. To do so, first, in the command line, do the following:  
 
 ```
-cd <the folder which are going to add to the path>
+cd <the folder which you are going to add to the path>
 git clone git@github.com:SophiaVaughan/MissiePlots.git
 ```
 
