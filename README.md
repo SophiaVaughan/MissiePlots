@@ -1,4 +1,4 @@
-# MissiePlots
+![MissiePlots](docs/build/latex/MissiePlots.png)
 
 This repository contains a varity of codes to reproduce plots I have made. Please reference this repo if you use it in your work.  
 
