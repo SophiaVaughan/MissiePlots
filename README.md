@@ -1,6 +1,6 @@
-# MissiePlots
+![MissiePlots](docs/build/latex/MissiePlots.png)
 
-This repository contains a varity of codes to reproduce plots I have made.  
+This repository contains a varity of codes to reproduce plots I have made. Please reference this repo if you use it in your work.  
 
 Tutorials and example plots for each of the plotting functions can be found in the tutorials folder and documentation can be found in the docs folder.  
 
@@ -11,7 +11,7 @@ If you have seen a nice plot in my work (papers, posters, talks etc) and the cod
 This code is presently not avalible on pip so you will have to clone the repository and add it to the system path to use it like an installed package. To do so, first, in the command line, do the following:  
 
 ```
-cd <the folder which are going to add to the path>
+cd <the folder which you are going to add to the path>
 git clone git@github.com:SophiaVaughan/MissiePlots.git
 ```
 
@@ -28,7 +28,7 @@ It then should be possible to import the code as normal:
 from MissiePlots.<a module> import <some function>
 ```
 
-Note that this will then allow you to import any other code in the directory you added so if you have other git repositories in there it will be possible to use those to. It is also possible to perminatly add the directory to the system path but this is left as an exercise for the reader (google it).  
+Note that this will then allow you to import any other code in the directory you added so if you have other git repositories in there it will be possible to use those to. It is also possible to permanently add the directory to the system path but this is left as an exercise for the reader (google it).  
 
 ## Dependecies
 
