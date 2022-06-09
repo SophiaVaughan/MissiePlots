@@ -152,18 +152,18 @@ def _plotadmin(ax, kwargs, d3=False):
 	
 	### Add a label/change the axis ticks/set the limits of the x axis if the and 'xlabel' and 'font_scale'/'xticks' and 'font_scale'/'xlim' keywords are set ###
 	_adjustplot( lambda kwargs: ax.set_xlabel(kwargs['xlabel'], fontsize=12*kwargs['font_scale']) , kwargs, ['xlabel', 'font_scale'], 'setting x label')
-	_adjustplot( lambda kwargs: ax.set_xticks(kwargs['xticks'], fontsize=12*kwargs['font_scale']) , kwargs, ['xticks', 'font_scale'], 'setting x ticks')
+	_adjustplot( lambda kwargs: ax.set_xticks(kwargs['xticks'], fontsize=10*kwargs['font_scale']) , kwargs, ['xticks', 'font_scale'], 'setting x ticks')
 	_adjustplot( lambda kwargs: ax.set_xlim(kwargs['xlim']) , kwargs, ['xlim', 'font_scale'], 'setting x lim')
 	
 	### Add a label/change the axis ticks/set the limits of the y axis if the and 'ylabel' and 'font_scale'/'yticks' and 'font_scale'/'ylim' keywords are set ###
 	_adjustplot( lambda kwargs: ax.set_ylabel(kwargs['ylabel'], fontsize=12*kwargs['font_scale']) , kwargs, ['ylabel', 'font_scale'], 'setting y label')
-	_adjustplot( lambda kwargs: ax.set_yticks(kwargs['yticks'], fontsize=12*kwargs['font_scale']) , kwargs, ['yticks', 'font_scale'], 'setting y ticks')
+	_adjustplot( lambda kwargs: ax.set_yticks(kwargs['yticks'], fontsize=10*kwargs['font_scale']) , kwargs, ['yticks', 'font_scale'], 'setting y ticks')
 	_adjustplot( lambda kwargs: ax.set_ylim(kwargs['ylim']) , kwargs, ['ylim', 'font_scale'], 'setting y lim')
 	
 	### If the plot is 3D, add a label/change the axis ticks/set the limits of the z axis if the and 'zlabel' and 'font_scale'/'zticks' and 'font_scale'/'zlim' keywords are set ###
 	if d3==True:
 		_adjustplot( lambda kwargs: ax.set_zlabel(kwargs['zlabel'], fontsize=12*kwargs['font_scale']) , kwargs, ['zlabel', 'font_scale'], 'setting z label')
-		_adjustplot( lambda kwargs: ax.set_zticks(kwargs['zticks'], fontsize=12*kwargs['font_scale']) , kwargs, ['zticks', 'font_scale'], 'setting z ticks')
+		_adjustplot( lambda kwargs: ax.set_zticks(kwargs['zticks'], fontsize=10*kwargs['font_scale']) , kwargs, ['zticks', 'font_scale'], 'setting z ticks')
 		_adjustplot( lambda kwargs: ax.set_zlim(kwargs['zlim']) , kwargs, ['zlim', 'font_scale'], 'setting z lim')
 
 ######################################################################################
@@ -274,7 +274,7 @@ def _makecbar(fig, cube, kwargs):
 
 	### Add a label/change the axis ticks/set the limits of the colorbar if the and 'cbarlabel' and 'font_scale'/'cbarticks' and 'font_scale'/'cbarlim' keywords are set ###
 	_adjustplot( lambda kwargs: cbar.set_label(kwargs['cbarlabel'], fontsize=12*kwargs['font_scale']) , kwargs, ['cbarlabel', 'font_scale'], 'setting cbar label')
-	_adjustplot( lambda kwargs: cbar.set_ticks(kwargs['cbarticks'], fontsize=12*kwargs['font_scale']) , kwargs, ['cbarticks', 'font_scale'], 'setting cbar ticks')
+	_adjustplot( lambda kwargs: cbar.set_ticks(kwargs['cbarticks'], fontsize=10*kwargs['font_scale']) , kwargs, ['cbarticks', 'font_scale'], 'setting cbar ticks')
 	_adjustplot( lambda kwargs: cbar.set_lim(kwargs['cbarlim'], fontsize=12*kwargs['font_scale']) , kwargs, ['cbarlim', 'font_scale'], 'setting cbar lim')
 	
 	### Mark points on the colorbar by adding axis ticks to the right hand side of the colorbar and labelling them ###
@@ -311,7 +311,7 @@ def _addcbarmarker(cbar, markpoints, marklabels, fontscale):
 	### Add the mark points as axis ticks ###
 	ax2.set_yticks(markpoints)
 	### Add the labels for the marks as tick labels ###
-	ax2.set_yticklabels(marklabels, color='r', fontsize=12*fontscale)
+	ax2.set_yticklabels(marklabels, color='r', fontsize=10*fontscale)
 	### set the positions of the two axis to match the colorbar
 	ax1.set_position(pos)
 	ax2.set_position(pos)
